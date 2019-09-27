@@ -1,0 +1,5 @@
+package com.everis.springcloudconversion.rest;
+
+public class CurrencyConversionController {
+
+}

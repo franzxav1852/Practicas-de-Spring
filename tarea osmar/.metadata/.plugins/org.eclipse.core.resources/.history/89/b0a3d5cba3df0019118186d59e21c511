@@ -1,0 +1,5 @@
+package com.everis.springcloudconversion.proxy;
+
+public interface CurrencyExchangeServiceProxy {
+
+}

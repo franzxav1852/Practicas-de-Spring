@@ -1,0 +1,5 @@
+package com.everis.springcloudexchange.model;
+
+public class ExchangeValue {
+
+}

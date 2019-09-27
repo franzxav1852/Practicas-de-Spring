@@ -1,0 +1,32 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:p="http://primefaces.org/ui">
+     <h:head>
+     </h:head>
+     <h:body>
+     <h:form>
+         <p:dataTable id="true" value="#{cursoViewController.cursos}" var="curso"
+            paginator="true" rows="5" filtereaderValue="#{cursoViewController.cursosFiltrados}">
+         	<p:column headerText="Id Curso">
+         		<h:outputText value="#{curso.id}"></h:outputText>
+         	</p:column>
+         	<p:column headerText="Nombre" sortBy="#{curso.nombrecurso}" filterBy="#{curso.nombrecurso}" filterMatchMode="contains">
+         		<h:outputText value="#{curso.nombrecurso}"></h:outputText>
+         	</p:column>
+         	<p:column headerText="Descripción" sortBy="#{curso.descripcion}" filterBy="#{curso.descripcion}>
+         		<h:outputText value="#{curso.descripcion}"></h:outputText>
+         	</p:column>
+         </p:dataTable>
+         <h3>Exportar Datos</h3>
+         <h:commandLink>
+           Exportar Excel 
+           <p:dataExporter type="xls" target="tblCursos" fileName="cursos"/>
+         </h:commandLink>
+          <h:commandLink>
+           Exportar PDF 
+           <p:dataExporter type="pdf" target="tblCursos" fileName="cursos"/>
+         </h:commandLink>
+     </h:form>
+     </h:body>
+</html>

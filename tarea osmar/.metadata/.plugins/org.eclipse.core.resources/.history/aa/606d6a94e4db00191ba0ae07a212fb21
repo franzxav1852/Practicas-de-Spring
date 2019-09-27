@@ -1,0 +1,5 @@
+package com.everis.springbootjprexamen.service;
+
+public class DescriptionService {
+
+}

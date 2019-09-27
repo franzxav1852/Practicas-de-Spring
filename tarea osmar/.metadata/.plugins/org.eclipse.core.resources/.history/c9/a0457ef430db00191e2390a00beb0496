@@ -1,0 +1,47 @@
+package com.everis.equipo1frontendsemana2.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.ManagedBean;
+import javax.annotation.PostConstruct;
+import javax.ws.rs.core.Response;
+
+import org.jboss.resteasy.client.jaxrs.ResteasyClient;
+import org.jboss.resteasy.client.jaxrs.ResteasyWebTarget;
+
+import com.everis.equipo1frontendsemana2.model.Curso;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+@ManagedBean
+public class CursosViewCursos {
+	
+	private String url = "http://localhost:9999/rest/curso/";
+	private List<Curso> cursos = new ArrayList<Curso>() {
+		//Resteasy peticiones HTTP, GET, POST, PUT, DELETE
+		ResteasyClient cliente = new ResteasyClientBuilder().build();
+				
+		@PostConstruct
+		public void init() {
+			ResteasyWebTarget target = cliente.target(uriBuilder.fromPath(url));
+			Response response = target.request().get();
+			String jsonResponse = response.readEntity(String.class);
+			ObjectMapper mapper = new ObjectMapper();
+			cursos = mapper.readValue(jsonRespuesta, new TypeReference<List<Curso>>() {
+			});
+			
+		}
+		
+		public List<Curso> getCurso() {
+			return cursos;
+		}
+		public void SetCursos(List<Curso>) {
+			this.cursos = cursos;
+		}
+		
+	}
+	
+}
+	
+

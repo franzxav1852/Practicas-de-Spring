@@ -1,0 +1,15 @@
+INDEX VERSION 1.131
+C:\Users\Dell5458\Desktop\tarea osmar\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4057936834.index
+\com.everis.examen-equipo2\src\main\resources
+C:\Users\Dell5458\Desktop\tarea osmar\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3205673583.index
+\examen1-equipo2\src\main\resources
+C:\Users\Dell5458\Desktop\tarea osmar\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1115810150.index
+\examen1-equipo2\src\main\java
+C:\Users\Dell5458\Desktop\tarea osmar\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2316992795.index
+\examen1-academia\src\main\resources
+C:\Users\Dell5458\Desktop\curso\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3663298867.index
+\3-jee\src\main\resources
+C:\Users\Dell5458\Desktop\tarea osmar\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3228981191.index
+\examen1equipo2\src\main\resources
+C:\Users\Dell5458\Desktop\tarea osmar\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3663298867.index
+\3-jee\src\main\java

@@ -1,0 +1,5 @@
+package com.everis.springbootjprexamen.controller;
+
+public class ProductController {
+
+}

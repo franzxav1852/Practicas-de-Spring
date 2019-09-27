@@ -1,0 +1,12 @@
+package com.everis.springcloudconversion.responses;
+
+import java.math.BigDecimal;
+
+public class CurrencyConversionResponse {
+	
+	private boolean successful;
+	private String message;
+	private BigDecimal total;
+	
+
+}

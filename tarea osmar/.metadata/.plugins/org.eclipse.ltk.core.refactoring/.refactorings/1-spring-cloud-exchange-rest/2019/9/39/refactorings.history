@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ExchangeValue.java&apos; to &apos;1-spring-cloud-conversion-rest/src/main/java/com.everis.springcloudconversion.model&apos;&#x0D;&#x0A;- Original project: &apos;1-spring-cloud-exchange-rest&apos;&#x0D;&#x0A;- Destination element: &apos;1-spring-cloud-conversion-rest/src/main/java/com.everis.springcloudconversion.model&apos;&#x0D;&#x0A;- Original element: &apos;com.everis.springcloudexchange.model.ExchangeValue.java&apos;" description="Copy compilation unit" destination="=1-spring-cloud-conversion-rest/src\/main\/java&lt;com.everis.springcloudconversion.model" element1="/src\/main\/java&lt;com.everis.springcloudexchange.model{ExchangeValue.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1569343812107" units="1" version="1.0"/>
+</session>

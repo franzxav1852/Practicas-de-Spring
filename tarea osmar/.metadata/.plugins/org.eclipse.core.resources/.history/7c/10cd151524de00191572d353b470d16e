@@ -1,0 +1,4 @@
+spring.cloud.config.url = http:localhost:8888
+#Nombre de la aplicacion debe de coincidir con el nombre de githup
+spring.application.name = spring-cloud-config-rest
+spring.profiles.active = default

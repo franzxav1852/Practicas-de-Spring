@@ -1,0 +1,39 @@
+package com.everis.springcloudconfigrest.model;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Component
+@ConfigurationProperties("descuento")
+public class CalcularTotal {
+	
+	private int cantidad = 1000;
+	private double descuento;
+	private double resultado;
+	
+	public int getCantidad() {
+		return cantidad;
+	}
+	public void setCantidad(int cantidad) {
+		this.cantidad = cantidad;
+	}
+	public double isDescuento() {
+		return descuento;
+	}
+	public void setDescuento(double descuento) {
+		this.descuento = descuento;
+	}
+	public double isResultado() {
+		return resultado;
+	}
+	public void setResultado(double resultado) {
+		this.resultado = resultado;
+	}
+	@Override
+	public String toString() {
+		return "CalcularDescuento [cantidad=" + cantidad + ", descuento=" + descuento + ", resultado=" + resultado
+				+ "]";
+	}
+	
+	
+}
